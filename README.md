@@ -1,7 +1,7 @@
 # **How Do Vision Transformers Work?**
 **By Namuk Park, Songkuk Kim**
 
-## **Problem**
+## Problem
 
 How do Vision Transformers (ViTs) work with Multi-Head Self-Attentions (MSAs)?
  
