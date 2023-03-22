@@ -1,5 +1,5 @@
 # **How Do Vision Transformers Work?**
-## **By Namuk Park, Songkuk Kim**
+**By Namuk Park, Songkuk Kim**
 
 ## Problem
 
