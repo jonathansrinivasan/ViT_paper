@@ -26,6 +26,13 @@ Ouput: fixed-dimensional feature vector
 
 ![image](https://user-images.githubusercontent.com/48261978/227057387-5a719ced-f5f1-4ac7-a944-877ec36d37bd.png)
 
+1. images are split into "patches" which act as sequence tokens in this case
+2. patches are flattened
+3. get linear embedding from patches
+4. add positional embeddings to the patches
+5. feed into a transformer encoder
+6. pretrain using labeled images
+7. finetune model later for image classification
 
 ### Takeaways 
 
