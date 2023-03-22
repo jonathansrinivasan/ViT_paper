@@ -3,6 +3,6 @@
 
 ## Problem
 
-## Aproach
+## Approach
 
 ## Solution
