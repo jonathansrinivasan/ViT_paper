@@ -24,7 +24,7 @@ Encoder-Only Transformer
 Input: images        
 Ouput: fixed-dimensional feature vector
 
-![image](https://user-images.githubusercontent.com/48261978/227057264-ab989673-4f25-4505-a690-fc97d966edbb.png)
+![image](https://user-images.githubusercontent.com/48261978/227057387-5a719ced-f5f1-4ac7-a944-877ec36d37bd.png)
 
 
 ### Takeaways 
