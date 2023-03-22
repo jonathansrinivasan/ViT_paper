@@ -11,4 +11,10 @@
 
 ## Approach
 
+The authors explore:
+1. What properties of MSAs do we need to improve optimization?
+2. Do MSAs act like Convs?
+3. How can we harmonize MSAs with Convs?
+
 ## Solution
+
