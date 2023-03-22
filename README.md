@@ -18,7 +18,7 @@ The authors explore:
 
 Encoder-Only Transformer
 
-![image](https://user-images.githubusercontent.com/48261978/227056721-dba6b7b9-919a-49eb-a22f-b10855dbcf84.png)
+![image](https://user-images.githubusercontent.com/48261978/227056915-01d6235e-f658-4b5e-ba73-ca3acb4e01f2.png)
 
 
 Input: images        
