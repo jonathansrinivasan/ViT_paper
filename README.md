@@ -18,7 +18,7 @@ The authors explore:
 
 Encoder-Only Transformer
 
-Input: images
+Input: images        
 Ouput: fixed-dimensional feature vector
 
 ### Takeaways 
