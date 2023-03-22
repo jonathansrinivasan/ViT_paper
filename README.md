@@ -18,6 +18,9 @@ The authors explore:
 
 Encoder-Only Transformer
 
+![image](https://user-images.githubusercontent.com/48261978/227056326-c04622cb-5f0d-46e2-994e-b77553492c1e.png)
+
+
 Input: images        
 Ouput: fixed-dimensional feature vector
 
