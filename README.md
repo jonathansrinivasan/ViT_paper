@@ -16,6 +16,11 @@ The authors explore:
 
 ### Architecture
 
+Encoder-Only Transformer
+
+Input: images
+Ouput: fixed-dimensional feature vector
+
 ### Takeaways 
 
 1. MSAs improves accuracy and generlization by flattening loss landscapes. ViTs suffer from non-convex losses, which can be fixed with large datasets and loss landscape smoothing methods.
