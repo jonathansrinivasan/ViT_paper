@@ -16,7 +16,7 @@ The authors explore:
 
 ### Architecture
 
-## Takeaways 
+### Takeaways 
 
 1. MSAs improves accuracy and generlization by flattening loss landscapes. ViTs suffer from non-convex losses, which can be fixed with large datasets and loss landscape smoothing methods.
 2. MSAs and Conv have opposite behaviors, therefore, they are complementary.
