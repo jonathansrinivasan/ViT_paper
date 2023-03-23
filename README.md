@@ -12,14 +12,9 @@ The authors explore:
 2. Do MSAs act like Convs?
 3. How can we harmonize MSAs with Convs?
 
-## Solution
-
-### Architecture
+## ViT Architecture
 
 Encoder-Only Transformer
-
-![image](https://user-images.githubusercontent.com/48261978/227056915-01d6235e-f658-4b5e-ba73-ca3acb4e01f2.png)
-
 
 Input: images        
 Ouput: fixed-dimensional feature vector
@@ -34,7 +29,19 @@ Ouput: fixed-dimensional feature vector
 6. pretrain using labeled images
 7. finetune model later for image classification
 
+
+## Solution
+
+
+
 Question: Would MSAs and Convs work together?
+
+
+#### Advantages compared to CNNs:
+
+
+#### Disadvantages compared to CNNs:
+
 
 ### AlterNet
 
@@ -55,12 +62,15 @@ Design:
 
 1. MSAs improves accuracy and generlization by flattening loss landscapes. ViTs suffer from non-convex losses, which can be fixed with large datasets and loss landscape smoothing methods.
 2. MSAs and Conv have opposite behaviors, therefore, they are complementary.
-3. Multi-stage neural networks behave like a series of small individual models. 
-4. Authors propose ALterNet, a model that replaces Conv blocks at the end of a stage with MSA blocks. AlterNet outperforms CNN models in both large and small datasets.
+3. Authors propose ALterNet, a model that replaces Conv blocks at the end of a stage with MSA blocks. AlterNet outperforms CNN models in both large and small datasets.
+
+
+
+
 
 ## Analysis
 
-From the title of the article, I assumed the authors would explain just about vision transformers, however, 
+The title of the article is misleading, because I assumed the authors would talk about vision transofrmers as a whole. Instead, the authors mainly focused on the multi-headed self-attention layers, and it was all in relation to Convs. 
 
 ## Resources
 
