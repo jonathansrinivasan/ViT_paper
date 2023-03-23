@@ -55,7 +55,7 @@ MSAs capture global relationships and patterns across all positions, meaning the
 Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.                                     
 
 
-*Question: Would MSAs and Convs work together?*
+*Question: Would MSAs and Convs work together?* 
 
 
 Advantage compared to CNNs: MSAs better capture local features and long-range dependencies                       
