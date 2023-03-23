@@ -50,12 +50,12 @@ MSAs generally reduce the high-frequency component of feature map, and MLPs (cor
 
 ![image](https://user-images.githubusercontent.com/48261978/227226385-67616c89-5994-4b10-bd0d-da50af2e8bd7.png)
 
-MSAs aggregate feature maps, but Convs do not.
-MSAs capture global relationships and patterns across all positions, meaning they aggregate information from all positions and combine it into a single feature map.           
-Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.
+MSAs aggregate feature maps, but Convs do not.                                   
+MSAs capture global relationships and patterns across all positions, meaning they aggregate information from all positions and combine it into a single feature map.                             
+Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.                                     
 
 
-Question: Would MSAs and Convs work together?
+*Question: Would MSAs and Convs work together?*
 
 
 Advantage compared to CNNs: MSAs better capture local features and long-range dependencies                       
