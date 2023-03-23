@@ -19,10 +19,10 @@ Encoder-Only Transformer
 Input: images        
 Ouput: fixed-dimensional feature vector
 
-Input Embedding Layer
-Positional Encoding Layer
-Transformer Encoder Layers
-Classification Head
+Input Embedding Layer                      
+Positional Encoding Layer              
+Transformer Encoder Layers                    
+Classification Head                        
 
 ![image](https://user-images.githubusercontent.com/48261978/227057387-5a719ced-f5f1-4ac7-a944-877ec36d37bd.png)
 
@@ -60,7 +60,7 @@ Question: Would MSAs and Convs work together?
 
 Advantage compared to CNNs: MSAs better capture local features and long-range dependencies                       
 
-Disadvantage compared to CNNs: Less efficient and requires significantly more memory                    
+Disadvantage compared to CNNs: Less efficient and requires significantly more memory                     
 
 
 ### AlterNet
