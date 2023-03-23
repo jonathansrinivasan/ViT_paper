@@ -57,7 +57,7 @@ Convs capture local patterns, meaning they aggregate patterns/variations with ea
 Advantage compared to CNNs: Better captures local features and long-range dependencies                                                                    
 Disadvantage compared to CNNs: Less efficient and requires significantly more memory                      
                                                  
-*Question: Would MSAs and Convs work together?*                        
+*Question: Can MSAs and Convs work together?*                        
                                                             
 
 
