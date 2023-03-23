@@ -30,8 +30,8 @@ Classification Head
 2. patches are flattened
 3. get linear embedding from patches
 4. add positional embeddings to the patches
-5. feed into a transformer encoder
-6. pretrain using labeled images
+5. feed into a transformer encoder                      
+6. pretrain using labeled images (large datasets)
 7. finetune model later for image classification
 
 
