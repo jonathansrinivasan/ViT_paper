@@ -34,6 +34,9 @@ Ouput: fixed-dimensional feature vector
 6. pretrain using labeled images
 7. finetune model later for image classification
 
+![image](https://user-images.githubusercontent.com/48261978/227080897-6c93d39c-6320-4637-9dfc-03fd5ce73fc7.png)
+
+
 ### Takeaways 
 
 1. MSAs improves accuracy and generlization by flattening loss landscapes. ViTs suffer from non-convex losses, which can be fixed with large datasets and loss landscape smoothing methods.
