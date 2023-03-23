@@ -82,7 +82,7 @@ Design:
 
 1. MSAs improves accuracy and generlization by flattening loss landscapes. ViTs suffer from non-convex losses, which can be fixed with large datasets and loss landscape smoothing methods.
 2. MSAs and Conv have opposite behaviors, therefore, they are complementary.
-3. Authors propose ALterNet, a model that replaces Conv blocks at the end of a stage with MSA blocks. AlterNet outperforms CNN models in both large and small datasets.
+3. Authors propose AlterNet, a model that replaces Conv blocks at the end of a stage with MSA blocks. AlterNet outperforms CNN models in both large and small datasets.
 
 
 
@@ -94,3 +94,5 @@ The title of the article is misleading, because I assumed the authors would talk
 
 ## Resources
 
+How Do Vision Transformers Work?: https://arxiv.org/pdf/2202.06709v1.pdf
+Kaggle CiFar10 ViT example: https://www.kaggle.com/code/lonnieqin/cifar10-classification-vision-transformer/notebook
