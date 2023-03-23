@@ -92,7 +92,7 @@ Design:
 
 The title of the article is misleading, because I assumed the authors would talk about vision transofrmers as a whole. Instead, the authors mainly focused on the multi-headed self-attention layers, and it was all in relation to Convs. 
 
-## Resources
+## Resources                 
 
-How Do Vision Transformers Work?: https://arxiv.org/pdf/2202.06709v1.pdf
+How Do Vision Transformers Work?: https://arxiv.org/pdf/2202.06709v1.pdf                                     
 Kaggle CiFar10 ViT example: https://www.kaggle.com/code/lonnieqin/cifar10-classification-vision-transformer/notebook
