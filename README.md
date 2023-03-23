@@ -39,7 +39,7 @@ Classification Head
 
 ### Helpful Properties of MSAs:            
 • MSAs flatten the loss landscape                     
-• A key feature of MSAs is data specificity               
+• Data specificity (each data point is considered in isolation, in no reliance on info from other parts of the sequence)                                                          
 
 ### How do MSAs and Convs behave?
 
