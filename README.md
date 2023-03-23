@@ -37,11 +37,11 @@ Classification Head
 
 ## Solution
 
-#### Helpful Properties of MSAs:            
+### Helpful Properties of MSAs:            
 • MSAs flatten the loss landscape                     
 • A key feature of MSAs is data specificity               
 
-#### How do MSAs and Convs behave?
+### How do MSAs and Convs behave?
 
 MSAs use low-frequency signals and Convs use high-frequency signals.
 MSAs are low-pass filters, and Convs are high-pass filters.               
