@@ -46,5 +46,7 @@ Ouput: fixed-dimensional feature vector
 
 ## Analysis
 
+From the title of the article, I assumed the authors would explain more about the architecture of vision transformers,  
+
 ## Resources
 
