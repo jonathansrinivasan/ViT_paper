@@ -44,7 +44,7 @@ Classification Head
 #### How do MSAs and Convs behave?
 
 
-![image](https://user-images.githubusercontent.com/48261978/227226144-a62de2e5-7059-4eee-a7df-c6860dec00e7.png)
+![image](https://user-images.githubusercontent.com/48261978/227226385-67616c89-5994-4b10-bd0d-da50af2e8bd7.png)
 
 
 Question: Would MSAs and Convs work together?
