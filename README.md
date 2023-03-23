@@ -21,7 +21,7 @@ Ouput: fixed-dimensional feature vector
 
 Input Embedding Layer
 Positional Encoding Layer
-Transfoer Necoder Layers
+Transformer Encoder Layers
 Classification Head
 
 ![image](https://user-images.githubusercontent.com/48261978/227057387-5a719ced-f5f1-4ac7-a944-877ec36d37bd.png)
@@ -37,23 +37,30 @@ Classification Head
 
 ## Solution
 
-#### Helpful Properties of MSAs:
-• MSAs flatten the loss landscape
-• A key feature of MSAs is data specificity
+#### Helpful Properties of MSAs:            
+• MSAs flatten the loss landscape                     
+• A key feature of MSAs is data specificity               
 
 #### How do MSAs and Convs behave?
 
+MSAs use low-frequency signals and Convs use high-frequency signals.
+MSAs are low-pass filters, and Convs are high-pass filters.               
+
+MSAs generally reduce the high-frequency component of feature map, and MLPs (corresponding to Convs) amplify it.                    
 
 ![image](https://user-images.githubusercontent.com/48261978/227226385-67616c89-5994-4b10-bd0d-da50af2e8bd7.png)
+
+MSAs aggregate feature maps, but Convs do not.
+MSAs capture global relationships and patterns across all positions, meaning they aggregate information from all positions and combine it into a single feature map.           
+Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.
 
 
 Question: Would MSAs and Convs work together?
 
 
-#### Advantages compared to CNNs:
+Advantage compared to CNNs: MSAs better capture local features and long-range dependencies                       
 
-
-#### Disadvantages compared to CNNs:
+Disadvantage compared to CNNs: Less efficient and requires significantly more memory                    
 
 
 ### AlterNet
