@@ -34,7 +34,7 @@ Ouput: fixed-dimensional feature vector
 6. pretrain using labeled images
 7. finetune model later for image classification
 
-Would MSAs and Convs work together?
+Question: Would MSAs and Convs work together?
 
 ### AlterNet
 
