@@ -52,14 +52,14 @@ MSAs generally reduce the high-frequency component of feature map, and MLPs (cor
 
 MSAs aggregate feature maps, but Convs do not.                                   
 MSAs capture global relationships and patterns across all positions, meaning they aggregate information from all positions and combine it into a single feature map.                             
-Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.                                     
-                                
-                                         
-*Question: Would MSAs and Convs work together?* 
-                                          
-                                
-Advantage compared to CNNs: MSAs better capture local features and long-range dependencies                       
-Disadvantage compared to CNNs: Less efficient and requires significantly more memory                     
+Convs capture local patterns, meaning they aggregate patterns/variations with each region of the input image.                                      
+                                                   
+*Question: What is the main advantage that MSAs provide over CNNs?*                               
+                                      
+Disadvantage compared to CNNs: Less efficient and requires significantly more memory   
+                                                 
+*Question: Would MSAs and Convs work together?*                        
+                                                            
 
 
 ### AlterNet
@@ -89,7 +89,7 @@ Design:
 
 ## Analysis
 
-The title of the article is misleading, because I assumed the authors would talk about vision transofrmers as a whole. Instead, the authors mainly focused on the multi-headed self-attention layers, and it was all in relation to Convs. 
+The title of the article is misleading, because I assumed the authors would talk about vision transofrmers as a whole. Instead, the authors mainly focused on the multi-headed self-attention layers, and it was all in relation to Convs.
 
 ## Resources                 
 
