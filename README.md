@@ -38,10 +38,10 @@ Ouput: fixed-dimensional feature vector
 
 A model that unifies ViTs and CNNs by adjusting the ratios of MSAs and Convs.
 
-Design:
-• Alternately replace Conv blocks with MSA blocks from the end of a baseline CNN model.
-• If the added MSA block does not improve predictive performance, replace a Conv block located at the end of an earlier stage with an MSA block.
-• Use more heads and higher hidden dimensions for MSA blocks in late stages.
+Design:                       
+• Alternately replace Conv blocks with MSA blocks from the end of a baseline CNN model.                  
+• If the added MSA block does not improve predictive performance, replace a Conv block located at the end of an earlier stage with an MSA block.             
+• Use more heads and higher hidden dimensions for MSA blocks in late stages.           
 
 ![image](https://user-images.githubusercontent.com/48261978/227081247-bdc4498c-d251-44b8-a943-8044850aed22.png)
 
