@@ -34,7 +34,7 @@ Ouput: fixed-dimensional feature vector
 6. pretrain using labeled images
 7. finetune model later for image classification
 
-![image](https://user-images.githubusercontent.com/48261978/227081042-bf3ab03d-d0c3-4a5b-b6b5-afba218974d0.png)
+![image](https://user-images.githubusercontent.com/48261978/227081247-bdc4498c-d251-44b8-a943-8044850aed22.png)
 
 
 ### Takeaways 
