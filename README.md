@@ -19,6 +19,11 @@ Encoder-Only Transformer
 Input: images        
 Ouput: fixed-dimensional feature vector
 
+Input Embedding Layer
+Positional Encoding Layer
+Transfoer Necoder Layers
+Classification Head
+
 ![image](https://user-images.githubusercontent.com/48261978/227057387-5a719ced-f5f1-4ac7-a944-877ec36d37bd.png)
 
 1. images are split into "patches" which act as sequence tokens in this case
@@ -32,6 +37,14 @@ Ouput: fixed-dimensional feature vector
 
 ## Solution
 
+#### Helpful Properties of MSAs:
+• MSAs flatten the loss landscape
+• A key feature of MSAs is data specificity
+
+#### How do MSAs and Convs behave?
+
+
+![image](https://user-images.githubusercontent.com/48261978/227226144-a62de2e5-7059-4eee-a7df-c6860dec00e7.png)
 
 
 Question: Would MSAs and Convs work together?
@@ -49,7 +62,7 @@ A model that unifies ViTs and CNNs by adjusting the ratios of MSAs and Convs.
 
 Design:                       
 • Replace Conv blocks with MSA blocks from the end of a baseline CNN model.                  
-• If the added MSA block does not improve predictive performance, replace a Conv block located at the end of an earlier stage with an MSA block.             
+• If the added MSA block does not improve predictive performance, replace a Conv block located at the end of an earlier stage with an MSA block.       
 • Use more heads and higher hidden dimensions for MSA blocks in late stages.           
 
 ![image](https://user-images.githubusercontent.com/48261978/227204038-63cc3128-0ef6-408f-8b28-a30df8cea6d4.png)
