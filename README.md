@@ -34,6 +34,8 @@ Ouput: fixed-dimensional feature vector
 6. pretrain using labeled images
 7. finetune model later for image classification
 
+Would MSAs and Convs work together?
+
 ### AlterNet
 
 A model that unifies ViTs and CNNs by adjusting the ratios of MSAs and Convs.
