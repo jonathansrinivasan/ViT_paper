@@ -43,6 +43,9 @@ Design:
 • If the added MSA block does not improve predictive performance, replace a Conv block located at the end of an earlier stage with an MSA block.             
 • Use more heads and higher hidden dimensions for MSA blocks in late stages.           
 
+![image](https://user-images.githubusercontent.com/48261978/227204038-63cc3128-0ef6-408f-8b28-a30df8cea6d4.png)
+
+
 ![image](https://user-images.githubusercontent.com/48261978/227081247-bdc4498c-d251-44b8-a943-8044850aed22.png)
 
 
